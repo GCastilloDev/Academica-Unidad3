@@ -52,7 +52,7 @@ public class Propuesto010 {
     }
     
     public static void main(String[] args) {
-        System.out.println("*** Progra que ayuda a elegir el lugar a viajar ***");
+        System.out.println("*** Programa que ayuda a elegir el lugar a viajar ***");
         
         Scanner n = new Scanner(System.in);
         

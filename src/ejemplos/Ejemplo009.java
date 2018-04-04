@@ -62,7 +62,9 @@ public class Ejemplo009 {
         
         System.out.println("***** Ticket de compra *****");
         System.out.println("Subtotal $" + f.format(obj.calcularPagoTiempo(tiempoLlamada)));
-        System.out.println("Impuesto $" + f.format(obj.calcularImpuesto(tiempoLlamada, dia, turno)));
-        System.out.println("   Total $" + f.format(obj.calcularPagoTotal(tiempoLlamada, dia, turno)));
+        System.out.println("Impuesto $" + f.format(obj.calcularImpuesto(tiempoLlamada, dia, 
+                turno)));
+        System.out.println("   Total $" + f.format(obj.calcularPagoTotal(tiempoLlamada, dia, 
+                turno)));
     }
 }

@@ -35,7 +35,8 @@ public class Ejemplo010 {
     }
     
     public float obtenerCostoTotal(char tipo, int personas,int kilometros){
-        float costoTotal = obtenerCostoKilometro(tipo) * obtenerCantidadPersonas(personas) * kilometros;
+        float costoTotal = obtenerCostoKilometro(tipo) * obtenerCantidadPersonas(personas) 
+                * kilometros;
         return costoTotal;
     }
     
@@ -58,7 +59,9 @@ public class Ejemplo010 {
         
         Ejemplo010 obj = new Ejemplo010();
         
-        System.out.println("El costo por persona es de $" + obj.obtenerCostoIndividual(tipo, personas, km));
-        System.out.println("El costo total del viaje es de $" + obj.obtenerCostoTotal(tipo, personas, km));
+        System.out.println("El costo por persona es de $" + obj.obtenerCostoIndividual(tipo,
+                personas, km));
+        System.out.println("El costo total del viaje es de $" + obj.obtenerCostoTotal(tipo,
+                personas, km));
     }
 }

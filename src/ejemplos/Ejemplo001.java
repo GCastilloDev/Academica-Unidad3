@@ -9,7 +9,7 @@ public class Ejemplo001 {
     Determinar cuál de dos valores proporcionados es el mayor.
     */
     public static void main(String[] args) {
-        System.out.println("*** Programa que determina el mayo de dos números ***");
+        System.out.println("*** Programa que determina el mayor de dos números ***");
         
         Scanner n = new Scanner(System.in);
         

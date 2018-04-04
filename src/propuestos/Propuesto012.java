@@ -23,7 +23,7 @@ public class Propuesto012 {
         return sueldo;
     }
     
-    public void obtnerSalario(int horasT, float costoH){
+    public void obtenerSalario(int horasT, float costoH){
         DecimalFormat f = new DecimalFormat("#0.00");
         if (horasT > 50){
             System.out.println("\nNo está permitido trabajar mas de 50 horas");
@@ -34,7 +34,7 @@ public class Propuesto012 {
         }
     }
     public static void main(String[] args) {
-        System.out.println("***Programa que calcula el horario de un trabajador***");
+        System.out.println("***Programa que calcula el sueldo de un trabajador***");
         
         Scanner n = new Scanner(System.in);
         
@@ -44,6 +44,6 @@ public class Propuesto012 {
         float costoH = n.nextFloat();
         
         Propuesto012 obj = new Propuesto012();
-        obj.obtnerSalario(horasT, costoH);
+        obj.obtenerSalario(horasT, costoH);
     }
 }

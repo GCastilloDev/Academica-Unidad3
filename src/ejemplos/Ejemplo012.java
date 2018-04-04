@@ -56,6 +56,7 @@ public class Ejemplo012 {
         Ejemplo012 obj = new Ejemplo012();
         
         System.out.println("Costo de la cita $" + obj.obtenerCostoCita(numeroCita));
-        System.out.println("Costo total del tratamiento $" + obj.obtenerCostoTratamiento(numeroCita));
+        System.out.println("Costo total del tratamiento $" + obj.obtenerCostoTratamiento
+        (numeroCita));
     }
 }
